@@ -1,0 +1,78 @@
+html,body {
+    margin: 0;
+    padding: 0;
+  }
+
+/*header,body,footer{
+  background-image:
+  linear-gradient(to bottom, rgba(103, 199, 255, 0.5), rgba(254, 254, 254, 0.756)),
+  url('campus1.jpg');
+
+
+}*/
+  
+  html {
+    background-color:azure;
+        font-size: 20px;
+    color: rgb(41, 53, 60) ;
+  }
+  
+ .title {
+    text-align: center;
+    }
+
+button{
+    text-align: center;
+
+}
+
+nav {
+    height: 50px;
+    background-color: #eed2bf00;
+    border: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 1rem;
+    font-style: times;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: noir;
+    text-decoration: none;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+
+ button{
+    color: white;
+    background: thistle;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 10px 10px 10px 10px; 
+}
+
